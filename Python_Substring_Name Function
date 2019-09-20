@@ -1,0 +1,14 @@
+import statistics
+a=1,2,3
+print(a)
+print(statistics.median(a))
+print(statistics.mean(a))
+print(statistics.variance(a))
+#name="Mohan Palaniswamy"
+name=(input("Enter a Full Name(seperated by space): ")) 
+
+#print(name[3:5])
+#print(name[0:5])
+spaceindex=name.find(" ")
+print("Your First Name is: "+name[0:spaceindex])
+print("Your Last Name is: " +name[spaceindex+1:])
